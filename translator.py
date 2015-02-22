@@ -65,7 +65,7 @@ while True:
             addDef = addDef.lower()
             creole[str(word)] = str(addDef)
             print('In Haitian Creole: '+ str(word) +' = '+ addDef)
-            print('Github addition')
+            
         def notIn(phrase):
             choice = input("""Sorry, """ + str(phrase.upper()) + """ hasn't been entered into the dictionary yet.
     Would you like to enter """ + str(phrase.upper()) + """ into the dictionary?
